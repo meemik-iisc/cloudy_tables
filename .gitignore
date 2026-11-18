@@ -1,0 +1,12 @@
+.env
+__pycache__/
+
+# Cloudy run folders in tables/ (~230 MB per table, reproducible with run_grid).
+# The collected tables (tables/*.h5) and their heatmaps (tables/*.png) are committed.
+tables/*/
+
+# Cloudy run files anywhere else
+*.in
+*.out
+*.ems
+*.abn
